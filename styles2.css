@@ -1,0 +1,33 @@
+ 
+		#slideshow {
+			position: relative;
+			height: 400px;
+			overflow: hidden;
+		}
+		
+		#slideshow img {
+			position: absolute;
+			top: 0;
+			left: 0;
+			max-width: 100%;
+			height: auto;
+		}
+		
+		#prev, #next {
+			position: absolute;
+			top: 50%;
+			margin-top: -25px;
+			padding: 10px;
+			background-color: #333;
+			color: #fff;
+			cursor: pointer;
+			z-index: 1;
+		}
+		
+		#prev {
+			left: 0;
+		}
+		
+		#next {
+			right: 0;
+        }
